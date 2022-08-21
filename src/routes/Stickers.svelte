@@ -1,0 +1,66 @@
+<script>
+    import Header from "../lib/components/Header.svelte";
+    import GetAppButtons from "../lib/components/GetAppButtons.svelte";
+</script>
+
+<svelte:head>
+    <title>Stickers - Peroxaan Studios</title>
+</svelte:head>
+
+<Header>
+    <div id="app_info" class="shadow-light">
+        <div id="app_header">
+            <img id="app_icon" class="shadow" src="./resources/images/logo.png" alt={"Peroxaan Stickers icon"} />
+            <div id="app_details">
+                <h2>Peroxaan Stickers</h2>
+                <p>An iMessage sticker Pack with our app icons.</p>
+            </div>
+        </div>
+        <GetAppButtons
+                appStore={'https://apps.apple.com/us/app/peroxaan-stickers/id1506414487'} />
+    </div>
+    <img class="shadow-strong" id="app_image" src="./resources/images/screenshots/Stickers.png" alt='Aerosketch screenshot' />
+</Header>
+
+<style>
+    #app_info {
+        background-color: white;
+        padding: 1rem;
+        border-radius: .5rem;
+    }
+    #app_icon {
+        height: 100px;
+        width: 100px;
+        border-radius: 20px;
+    }
+
+    #app_image { 
+        height: 500px;
+        margin: 2rem 0rem;
+    }
+
+    #app_header {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+        border-radius: .5rem;
+    }
+
+    @media (min-width:768px) {
+        #app_icon {
+            margin-right: 2rem;
+        }
+
+        #app_header {
+            flex-direction: row;
+            text-align: left;
+        }
+    }
+
+    @media (prefers-color-scheme: dark) {
+        #app_info {
+            background-color: #181818;
+        }
+    }
+</style>

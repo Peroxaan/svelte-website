@@ -24,7 +24,7 @@
         name={"Pink Kitsune"}
         description={"Head of Android Development."}
         twitterUsername={"pinkktsn"}
-        email={"ktsnme@peroxaan.com"} />
+        email={"pinkktsn@peroxaan.com"} />
 </div>
 
 <style>

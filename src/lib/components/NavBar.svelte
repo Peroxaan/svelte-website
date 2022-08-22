@@ -1,5 +1,5 @@
 <script>
-    import Menu from "../icons/Menu.svelte";
+    import Menu from "$lib/icons/Menu.svelte";
 
     let isCollapsed = true;
     

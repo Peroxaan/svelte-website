@@ -1,5 +1,5 @@
 <script>
-    import Button from "../../components/Button.svelte";
+    import Button from "$lib/components/Button.svelte";
     export let iconBg;
     export let iconUrl;
     export let name;

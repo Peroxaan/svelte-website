@@ -1,8 +1,8 @@
 <script>
-    import Header from "../lib/components/Header.svelte";
-    import OurApps from "../lib/home/apps/OurApps.svelte";
-    import TheTeam from "../lib/home/team/TheTeam.svelte";
-    import Button from "../lib/components/Button.svelte";
+    import Header from "$lib/components/Header.svelte";
+    import OurApps from "$lib/home/apps/OurApps.svelte";
+    import TheTeam from "$lib/home/team/TheTeam.svelte";
+    import Button from "$lib/components/Button.svelte";
 </script>
 
 <svelte:head>

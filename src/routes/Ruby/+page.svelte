@@ -1,6 +1,6 @@
 <script>
-    import Header from "../lib/components/Header.svelte";
-    import GetAppButtons from "../lib/components/GetAppButtons.svelte";
+    import Header from "../../lib/components/Header.svelte";
+    import GetAppButtons from "../../lib/components/GetAppButtons.svelte";
 </script>
 
 <svelte:head>

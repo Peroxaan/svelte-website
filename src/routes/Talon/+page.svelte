@@ -1,25 +1,27 @@
 <script>
-    import Header from "../lib/components/Header.svelte";
-    import GetAppButtons from "../lib/components/GetAppButtons.svelte";
+    import Header from "../../lib/components/Header.svelte";
+    import GetAppButtons from "../../lib/components/GetAppButtons.svelte";
 </script>
 
 <svelte:head>
-    <title>Stickers - Peroxaan Studios</title>
+    <title>Talon - Peroxaan Studios</title>
 </svelte:head>
 
 <Header>
     <div id="app_info" class="shadow-light">
         <div id="app_header">
-            <img id="app_icon" class="shadow" src="./resources/images/logo.png" alt={"Peroxaan Stickers icon"} />
+            <img id="app_icon" class="shadow" src="./resources/images/apps/Talon.png" alt={"Talon icon"} />
             <div id="app_details">
-                <h2>Peroxaan Stickers</h2>
-                <p>An iMessage sticker Pack with our app icons.</p>
+                <h2>Talon</h2>
+                <p>Talon is designed to make your life easier. Webhooks, made simple.</p>
             </div>
         </div>
         <GetAppButtons
-                appStore={'https://apps.apple.com/us/app/peroxaan-stickers/id1506414487'} />
+                appStore={'https://apps.apple.com/us/app/id1492913323'}
+                googlePlay={'https://play.google.com/store/apps/details?id=com.peroxaan.talon'}
+                windows={'https://dl.peroxaan.com/TalonSetup.exe'} />
     </div>
-    <img class="shadow-strong" id="app_image" src="./resources/images/screenshots/Stickers.png" alt='Aerosketch screenshot' />
+    <img class="shadow-strong" id="app_image" src="./resources/images/screenshots/Talon.png" alt='Talon screenshot' />
 </Header>
 
 <style>

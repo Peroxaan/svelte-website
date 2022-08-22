@@ -1,7 +1,7 @@
 <script>
-    import Header from "../lib/components/Header.svelte";
-    import Footer from "../lib/components/Footer.svelte";
-    import DownloadItem from "../lib/components/DownloadItem.svelte";
+    import Header from "../../lib/components/Header.svelte";
+    import Footer from "../../lib/components/Footer.svelte";
+    import DownloadItem from "../../lib/components/DownloadItem.svelte";
 </script>
 
 <svelte:head>

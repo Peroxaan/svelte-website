@@ -18,13 +18,6 @@
         description={"Head of Windows Development."}
         twitterUsername={"TheLBall"}
         email={"thelball@peroxaan.com"} />
-    <TeamMember 
-        iconBg={"#FF9AF5"}
-        iconUrl={"./resources/images/people/ktsnme.png"}
-        name={"Pink Kitsune"}
-        description={"Head of Android Development."}
-        twitterUsername={"pinkktsn"}
-        email={"pinkktsn@peroxaan.com"} />
 </div>
 
 <style>

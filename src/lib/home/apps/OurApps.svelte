@@ -5,12 +5,6 @@
 <h1>Our Apps</h1>
 <div class="apps">
     <PxApp 
-        iconBg={"#18b542"}
-        iconUrl={"./resources/images/apps/Evergreen.png"}
-        title={"Evergreen"}
-        text={"A simple finance app to keep track of your spending."}
-        href={"/Evergreen"} />
-    <PxApp 
         iconBg={"#BB22B9"}
         iconUrl={"./resources/images/apps/Talon.png"}
         title={"Talon"}
@@ -22,6 +16,12 @@
         title={"Ruby"}
         text={"Ruby is a News app with a customizable experience, built for you."} 
         href={"/Ruby"} />
+    <PxApp 
+        iconBg={"#18b542"}
+        iconUrl={"./resources/images/apps/Evergreen.png"}
+        title={"Evergreen"}
+        text={"A simple finance app to keep track of your spending."}
+        href={"/Evergreen"} />
 </div>
 
 <style>

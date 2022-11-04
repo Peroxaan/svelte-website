@@ -5,11 +5,11 @@
 <h1>Our Apps</h1>
 <div class="apps">
     <PxApp 
-        iconBg={"#FF688A"}
-        iconUrl={"./resources/images/apps/Aerosketch.png"}
-        title={"Aerosketch"}
-        text={"A new, fun, multiplayer drawing game, currently in beta."}
-        href={"/Aerosketch"} />
+        iconBg={"#18b542"}
+        iconUrl={"./resources/images/apps/Evergreen.png"}
+        title={"Evergreen"}
+        text={"A simple finance app to keep track of your spending."}
+        href={"/Evergreen"} />
     <PxApp 
         iconBg={"#BB22B9"}
         iconUrl={"./resources/images/apps/Talon.png"}
